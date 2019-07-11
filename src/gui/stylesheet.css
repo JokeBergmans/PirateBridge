@@ -1,0 +1,15 @@
+.root {
+    -fx-font-family: "Palatino Linotype";
+}
+
+.vbox {
+    -fx-background-color: #223637;
+}
+.label {
+    -fx-text-fill: #D3A41B;
+
+}
+
+.toggle-button {
+    -fx-text-fill: #D3A41B;
+}
