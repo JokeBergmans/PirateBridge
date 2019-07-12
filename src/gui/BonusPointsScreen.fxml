@@ -43,7 +43,7 @@
             <Spinner fx:id="sPirates" />
          </children>
       </HBox>
-      <Button fx:id="btnCalcScores" mnemonicParsing="false" onAction="#calculateScores" text="Bepaal scores">
+      <Button fx:id="btnCalcScores" mnemonicParsing="false" onAction="#calculateScores" text="Bepaal Scores">
          <VBox.margin>
             <Insets top="100.0" />
          </VBox.margin>

@@ -20,8 +20,7 @@
 
 .button {
     -fx-text-fill: #D3A41B;
-    -fx-padding: 8 8 15 8;
-    -fx-background-insets: 0,0 0 5 0, 0 0 6 0, 0 0 7 0;
+    -fx-padding: 8;
     -fx-background-radius: 8;
     -fx-background-color:
             linear-gradient(from 0% 93% to 0% 100%,  #395c5e 0%, #2a484a 100%),
@@ -29,5 +28,4 @@
             #395c5e,
             radial-gradient(center 50% 50%, radius 100%, #588e91,  #395c5e);
     -fx-font-weight: bold;
-    -fx-font-size: 1.1em;
 }
