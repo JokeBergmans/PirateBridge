@@ -23,11 +23,9 @@ public class NewGameScreenController extends VBox implements Initializable {
 
     private DomainController dc;
     @FXML
-    private ComboBox cbNumber;
+    private ComboBox<Integer> cbNumber;
     @FXML
     private VBox vbTextFields;
-    @FXML
-    private Button btnStop;
     @FXML
     private Button btnStart;
 
@@ -57,11 +55,6 @@ public class NewGameScreenController extends VBox implements Initializable {
         for (int i = 0; i < number; i++) {
             this.vbTextFields.getChildren().add(new TextField());
         }
-    }
-
-    @FXML
-    private void stop() {
-        Platform.exit();
     }
 
     @FXML

@@ -52,10 +52,12 @@ public class GuessScreenController extends VBox implements Initializable {
             HBox box = new HBox();
             box.setAlignment(Pos.CENTER);
             box.setSpacing(10);
+            Label name = new Label(p);
+            name.setMinWidth(100);
             Spinner<Integer> spinner = new Spinner<>();
             spinner.setValueFactory(new SpinnerValueFactory.IntegerSpinnerValueFactory(0, dc.getRound(), 0));
             spinner.setMaxWidth(50);
-            box.getChildren().addAll(new Label(p), spinner);
+            box.getChildren().addAll(name, spinner);
             vbGuessBoxes.getChildren().add(box);
         });
     }
