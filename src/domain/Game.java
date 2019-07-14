@@ -61,7 +61,7 @@ public class Game {
                 if (p.getGuess() == 0) {
                     p.changeScore(-round * 10);
                 } else {
-                    p.changeScore(Math.abs(p.getGuess() - p.getWon()) * -1);
+                    p.changeScore(Math.abs(p.getGuess() - p.getWon()) * -10);
                 }
             }
         });
