@@ -57,7 +57,7 @@ public class BonusPointsScreenController extends VBox implements Initializable {
         rbSkullking.selectedProperty().addListener(observable -> hbNumber.setVisible(rbSkullking.isSelected()));
         rbMermaid.selectedProperty().addListener(observable -> hbNumber.setVisible(rbSkullking.isSelected()));
         sPirates.setMaxWidth(50);
-        sPirates.setValueFactory(new SpinnerValueFactory.IntegerSpinnerValueFactory(0, 3, 0));
+        sPirates.setValueFactory(new SpinnerValueFactory.IntegerSpinnerValueFactory(0, 5, 0));
     }
 
     @FXML
